@@ -1,0 +1,2 @@
+export const GET_DATA = 'GET_DATA'
+export const ERROR_FETCHING_DATA = 'ERROR_FETCHING_DATA'

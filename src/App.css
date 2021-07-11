@@ -1,0 +1,52 @@
+html {
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.makeStyles-vCHighlight:hover .makeStyles-styledDot {
+	color: black;
+}
+
+.blueClick {
+	width: 3.8rem;
+	height: 0.7rem;
+	background-color: rgb(196, 196, 196);
+	border-radius: 2px;
+}
+.blueClick::not(:last-child) {
+	margin-right: 0.8rem;
+}
+
+.rowCenterContainer {
+	width: 100%;
+	height: 3.5rem;
+	display: flex;
+}
+
+.centerCenterFlex {
+	justify-content: center;
+	align-items: center;
+}
